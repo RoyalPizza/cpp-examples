@@ -1,0 +1,26 @@
+[TASKS]
+-- v2
+- add rdata parsing [#C76A9]
+- seperate parsing logic out [#0D60B]
+    -- I like keeping simple projects as one file,
+    -- but might seperate out. Depends on winsock support update.
+- add winsock support [#5D0E3]
+- parse flags and types into friendly name [#54847]
+
+-- v3
+- performance updates [#3F746]
+
+[ISSUES]
+- // TODO: Implement rdata parsing. [main.cpp::284]
+
+[USERS]
+- royalpizza
+
+[SETTINGS]
+Scanner.Keyword: TODO
+Scanner.Keyword: FIXME
+Scanner.Keyword: BUG
+Scanner.Exclude: *.md
+Scanner.Exclude: *.taskp
+Scanner.Exclude: bin
+Scanner.Exclude: obj
