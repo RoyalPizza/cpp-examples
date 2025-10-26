@@ -1,6 +1,8 @@
 # mDNS Logger
 A lightweight tool to capture and log incoming mDNS (Multicast DNS) packets, designed for network diagnostics and analysis.
 
+<img width="625" height="339" alt="mdns-logger" src="https://github.com/user-attachments/assets/e6a7002e-5bb1-4bea-b138-5aae86a535c8" />
+
 ## Features
 - Captures mDNS packets on port 5353.
 - Parses and displays DNS headers, questions, answers, authority, and additional records.
