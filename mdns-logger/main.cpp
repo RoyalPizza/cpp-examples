@@ -1,15 +1,11 @@
 #include <arpa/inet.h>
-#include <asm-generic/socket.h>
-#include <bits/stdint-uintn.h>
 #include <cstring>
-#include <getopt.h>
 #include <iomanip>
 #include <iostream>
 #include <netinet/in.h>
 #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <string>
 #include <sys/select.h>
 #include <sys/socket.h>
@@ -60,7 +56,7 @@ template <typename T> struct ParseResult {
 
 #define MDNS_PORT 5353
 #define MDNS_IP "224.0.0.251"
-#define MAX_QNAME_LEN 256 // Max DNS name length per RFC 1035
+#define MAX_NAME_LEN 256
 #define NAME_END 0x00
 #define NAME_POINTER 0xC0
 

@@ -1,0 +1,23 @@
+[TASKS]
+-- v2
+- add rdata parsing [#C76A9]
+- seperate parsing logic out [#0D60B]
+- add winsock support [#5D0E3]
+
+-- v3
+- performance updates
+
+[ISSUES]
+- // TODO: Implement rdata parsing. [main.cpp::288]
+
+[USERS]
+- royalpizza
+
+[SETTINGS]
+Scanner.Keyword: TODO
+Scanner.Keyword: FIXME
+Scanner.Keyword: BUG
+Scanner.Exclude: *.md
+Scanner.Exclude: *.taskp
+Scanner.Exclude: bin
+Scanner.Exclude: obj
