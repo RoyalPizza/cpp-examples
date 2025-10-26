@@ -1,1 +1,2 @@
-# cpp-examples
+# CPP Examples
+Portfolio of c/cpp applications.
